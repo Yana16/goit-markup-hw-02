@@ -1,0 +1,150 @@
+:root {
+    /* fonts */
+    --main-font: "Roboto";
+    --secondary-font:"Raleway";
+    /* text color */
+    --txt-main: #212121;
+    --txt-focus: #2196F3;
+    --txt-general-btn:#FFFFFF;
+    --txt-secondery: #757575;
+    --txt-logo: #000000;
+
+    /* bg color */
+    --general-btn-cl:#2196F3;
+    --menu-btn-cl:#F5F4FA;
+
+}
+
+.canceled {
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+}
+.approach-hidentitle {
+    opacity: 0;
+}
+
+.header-logo {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--txt-logo);
+}
+
+.body {
+    font-family: var(--main-font), sans-serif;
+    font-size: 16px;
+    color: var(--txt-main);
+    line-height: 1.14;
+    letter-spacing: 3%;
+}
+
+
+.header-link {
+    font-size: 14px;
+    letter-spacing: 2%;
+    color: var(--txt-main);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--txt-focus);
+}
+
+.mailto{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color: var(--txt-main);
+}
+.mailto:hover,
+.mailto:focus {
+    color: var(--txt-focus);
+}
+.tel {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color: var(--txt-main);
+}
+
+.order-btn {
+    font-weight:700;
+    background-color: var(--general-btn-cl);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 6%;
+    color: var(--txt-general-btn);
+}
+
+.filter-btn { 
+    font-weight: 500;
+    background-color: var(--menu-btn-cl);
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 3%;
+    color: var(--txt-main);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--general-btn-cl);
+    color: var(--txt-general-btn);
+}
+.order-title {
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 6%;
+}
+
+.approach-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    /* color: var(--txt-main); */
+}
+.approach-p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    color: var(--txt-secondery);
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 3%;
+    color: var(--txt-main);
+}
+.member-function {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 3%;
+    color: var(--txt-secondery);
+}
+.menu-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 6%;
+    color: var(--txt-main);
+}
+.menu-p {
+    font-size: 16px;
+    line-height: 1.90;
+    letter-spacing: 3%;
+    color: var(--txt-secondery);
+}
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+}
+.skills-title .team-title {
+   font-style: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    }
