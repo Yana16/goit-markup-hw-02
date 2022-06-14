@@ -1,17 +1,18 @@
 :root {
     /* fonts */
-    --main-font: "Roboto";
+    --main-font: "Roboto", sans-serif;
     --secondary-font:"Raleway";
     /* text color */
     --txt-main: #212121;
     --txt-focus: #2196F3;
     --txt-general-btn:#FFFFFF;
     --txt-secondery: #757575;
-    --txt-logo: #000000;
+    --txt-logo: #2196F3;;
 
     /* bg color */
     --general-btn-cl:#2196F3;
     --menu-btn-cl:#F5F4FA;
+    --bg-hover-genbtn: #188CE8;
 
 }
 
@@ -26,15 +27,15 @@
     opacity: 0;
 }
 
-.header-logo {
+.logo {
     font-family: var(--secondary-font);
     font-size: 26px;
     line-height: 1.19;
     color: var(--txt-logo);
 }
 
-.body {
-    font-family: var(--main-font), sans-serif;
+body {
+    font-family: var(--main-font);
     font-size: 16px;
     color: var(--txt-main);
     line-height: 1.14;
@@ -78,6 +79,11 @@
     letter-spacing: 6%;
     color: var(--txt-general-btn);
 }
+.order-btn:hover,
+.order-btn:focus     {
+    background-color: var(--bg-hover-genbtn);
+}
+
 
 .filter-btn { 
     font-weight: 500;
@@ -98,6 +104,7 @@
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 6%;
+    text-transform: uppercase;
 }
 
 .approach-title {
