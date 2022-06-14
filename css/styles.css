@@ -152,7 +152,7 @@ body {
     line-height: 1.71;
     letter-spacing: 3%;
 }
-.skills-title .team-title {
+.skills-title, .team-title{
    font-style: 700;
     font-size: 36px;
     line-height: 1.17;
