@@ -5,14 +5,18 @@
     /* text color */
     --txt-main: #212121;
     --txt-focus: #2196F3;
-    --txt-general-btn:#FFFFFF;
+    --txt-general-btn: #FFFFFF;
+    --txt-mail-footer:rgba(255, 255, 255, 0.6);
+    
     --txt-secondery: #757575;
-    --txt-logo: #2196F3;;
+    --txt-logo: #2196F3;
+    --txt-logo-black: #000000;
 
     /* bg color */
     --general-btn-cl:#2196F3;
     --menu-btn-cl:#F5F4FA;
     --bg-hover-genbtn: #188CE8;
+    --bg-order: #2F303A;
 
 }
 
@@ -31,7 +35,15 @@
     font-family: var(--secondary-font);
     font-size: 26px;
     line-height: 1.19;
-    color: var(--txt-logo);
+}
+span.logo-accent {
+    color: var(--txt-logos);
+}
+span.logo-black {
+    color: var(--txt-logo-black);
+}
+span.logo-white {
+    color: var(--txt-general-btn);
 }
 
 body {
@@ -44,6 +56,7 @@ body {
 
 
 .header-link {
+    font-weight: 500;
     font-size: 14px;
     letter-spacing: 2%;
     color: var(--txt-main);
@@ -53,22 +66,31 @@ body {
 .header-link:focus {
     color: var(--txt-focus);
 }
+.current {
+color: var(--txt-focus)
+}
 
 .mailto{
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 2%;
-    color: var(--txt-main);
+    color: var(--txt-secondery);
 }
 .mailto:hover,
 .mailto:focus {
     color: var(--txt-focus);
 }
 .tel {
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 2%;
-    color: var(--txt-main);
+    color: var(--txt-secondery);
+}
+.tel:hover,
+.tel:focus {
+    color: var(--txt-focus);
 }
 
 .order-btn {
@@ -94,6 +116,10 @@ body {
     color: var(--txt-main);
     cursor: pointer;
 }
+.current-btn {
+    background-color: var(--general-btn-cl);
+
+}
 
 .filter-btn:hover,
 .filter-btn:focus {
@@ -105,6 +131,8 @@ body {
     line-height: 1.36;
     letter-spacing: 6%;
     text-transform: uppercase;
+    color: var(--txt-general-btn);
+    background-color: var(--bg-order);
 }
 
 .approach-title {
@@ -112,7 +140,8 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 3%;
-    /* color: var(--txt-main); */
+    text-transform: uppercase;
+
 }
 .approach-p {
     font-size: 14px;
@@ -147,10 +176,24 @@ body {
     letter-spacing: 3%;
     color: var(--txt-secondery);
 }
-.address {
+.address-box {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 3%;
+    color: var(--txt-general-btn);
+}
+.address-descr {
+    color: var(--txt-general-btn);
+}
+.mailto-footer {
+    color: var(--txt-mail-footer);
+}
+.tel-footer {
+    color: var(--txt-mail-footer);
+}
+
+.footer {
+    background-color: var(--bg-order);
 }
 .skills-title, .team-title{
    font-style: 700;
