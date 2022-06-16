@@ -35,6 +35,7 @@
     font-family: var(--secondary-font);
     font-size: 26px;
     line-height: 1.19;
+    color: var(--txt-logo);
 }
 span.logo-accent {
     color: var(--txt-logos);
@@ -196,7 +197,7 @@ color: var(--txt-focus)
     background-color: var(--bg-order);
 }
 .skills-title, .team-title{
-   font-style: 700;
+    font-style: 700;
     font-size: 36px;
     line-height: 1.17;
     }
